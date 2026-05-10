@@ -1,0 +1,19 @@
+Gaussian Classification Model Report
+
+Introduction:
+Gaussian Classification is a machine learning method used to classify data into different categories. In this project, Gaussian Naive Bayes was used because it is simple, fast, and works well when the data follows a normal distribution pattern.
+
+Dataset:
+The Iris dataset was used for this project. It contains measurements of iris flowers, including sepal length, sepal width, petal length, and petal width. The target classes are setosa, versicolor, and virginica.
+
+Method:
+The dataset was split into training and testing sets. First, a baseline Gaussian Naive Bayes model was trained. Then, an improved model was created using a pipeline with StandardScaler and GaussianNB. StandardScaler was used to normalize the feature values before classification.
+
+Evaluation:
+The model was evaluated using accuracy, classification report, confusion matrix, and 5-fold cross-validation. These evaluation methods help show how well the model performs and whether it can correctly classify new data.
+
+Improvement:
+The improved model used preprocessing to scale the data. Cross-validation was also added to test the model more reliably instead of depending on only one train-test split.
+
+Conclusion:
+The Gaussian Classification model successfully classified the Iris dataset. The project shows how a simple probabilistic model can be trained, improved, evaluated, and saved for later use.
